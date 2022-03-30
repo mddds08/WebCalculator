@@ -90,3 +90,12 @@ button:hover {
 .calculator-keys {
     width: 100%;
 }
+
+@media (max-width:670px) {
+    .calculator {
+        width: 300px;
+    }
+    .container {
+        height: 750px;
+    }
+}
