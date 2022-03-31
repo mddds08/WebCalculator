@@ -5,6 +5,8 @@
 }
 html {
     scroll-behavior: smooth;
+}
+body {
     background-image: url(img/27409.png);
     background-size: cover;
     background-attachment: fixed;
