@@ -3,11 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     background-image: url(img/27409.png);
-    height: 700px;
-    padding: 30px;
+    padding: 100px 30px;
 }
 .header {
     height: 120px;
@@ -21,7 +27,6 @@
 .header h1 {
     color: white;
     letter-spacing: 3px;
-    padding-top:28px;
 }
 .header p {
     color: white;
@@ -49,7 +54,7 @@
     border-radius: 15px;
     padding: 0 20px;
     border: none;
-    box-shadow: 6px 4px 8px rgba(28, 28, 28, 0.481);
+    box-shadow: 4px 6px 14px rgba(126, 26, 146, 0.645);
     margin-bottom: 20px;
     
 }
