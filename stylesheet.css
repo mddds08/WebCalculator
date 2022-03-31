@@ -5,6 +5,9 @@
 }
 html {
     scroll-behavior: smooth;
+    background-image: url(img/27409.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
 .container {
     display: flex;
@@ -12,8 +15,8 @@ html {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-image: url(img/27409.png);
     padding: 100px 30px;
+    padding-bottom: 150px;
 }
 .header {
     height: 120px;
@@ -55,7 +58,7 @@ html {
     padding: 0 20px;
     border: none;
     box-shadow: 4px 6px 14px rgba(126, 26, 146, 0.645);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     
 }
 /* Button hover */
@@ -102,5 +105,8 @@ button:hover {
     }
     .container {
         height: 750px;
+    }
+    .all-clear, .zero-btn {
+        width: 43%;
     }
 }
